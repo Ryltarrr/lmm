@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: monospace;
+  color: #2f0147;
+  user-select: none;
+}
+
+.title {
+  font-family: monospace;
+  font-size: 2rem;
+  color: #2f0147;
+  text-align: center;
+}
+
+.btn {
+  color: #2f0147;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid #2f0147 3px;
+  border-radius: 50%;
+  /* border-radius: 12px; */
+  font-size: 2rem;
+  width: 3.5rem;
+  padding: 0.2em 0.4rem;
+}
+
+.counter-container {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cushion-image {
+  max-width: 375px;
+  display: block;
+  margin: auto;
+}
+
+.cushion-count {
+  width: 4rem;
+  text-align: center;
+}
