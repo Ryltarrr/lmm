@@ -17,6 +17,7 @@ function App() {
     }
   };
 
+  // changing background color depending on number of cushion
   useEffect(() => {
     if (cushionCount % 2 === 0) {
       window.document.body.style.backgroundColor = "pink";
